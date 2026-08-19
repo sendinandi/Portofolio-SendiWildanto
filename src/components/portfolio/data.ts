@@ -18,7 +18,26 @@ export const navItems = [
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Certifications", href: "#certifications" },
+  { label: "Education", href: "#education" },
+  { label: "Leadership", href: "#leadership" },
   { label: "Contact", href: "#contact" },
+];
+
+export const education = {
+  school: "Universitas Pembangunan Nasional \u201cVeteran\u201d Jakarta",
+  degree: "Bachelor of Information Systems",
+  period: "Aug 2022 \u2013 Aug 2026",
+  gpa: "GPA 3.86 / 4.00",
+};
+
+export const organizations = [
+  {
+    name: "KSM Cyber Security",
+    role: "Head of Academic Division",
+    period: "Feb 2024 \u2013 Jan 2025",
+    description:
+      "Coordinated academic programs and learning activities, managed academic division initiatives, and supported cybersecurity learning activities within the organization.",
+  },
 ];
 
 export const projects = [
