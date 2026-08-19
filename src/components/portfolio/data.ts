@@ -6,6 +6,7 @@ import sentiment from "@/assets/project-sentiment.jpg";
 import recyclebud from "@/assets/project-recyclebud.jpg";
 
 export const CV_URL = "/Sendi-Wildanto-CV.pdf";
+export const PHOTO_URL = "/sendi-photo.jpg";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/sendiwildanto";
 export const GITHUB_URL = "https://github.com/sendiwildanto";
 export const EMAIL = "sendiwildanto@gmail.com";
