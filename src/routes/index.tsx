@@ -39,6 +39,8 @@ function Index() {
         <Projects />
         <Skills />
         <Certifications />
+        <Education />
+        <Leadership />
         <Contact />
       </main>
     </div>
