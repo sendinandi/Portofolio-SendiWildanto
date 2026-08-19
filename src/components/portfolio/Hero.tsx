@@ -1,13 +1,48 @@
+import { useState } from "react";
 import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-analytics.jpg";
-import { CV_URL, EMAIL, GITHUB_URL, LINKEDIN_URL } from "./data";
+import { CV_URL, EMAIL, GITHUB_URL, LINKEDIN_URL, PHOTO_URL } from "./data";
 
 const stats = [
   { value: "3.86", label: "GPA / 4.00" },
   { value: "2", label: "Analytics internships" },
   { value: "6+", label: "Data & BI projects" },
 ];
+
+function ProfilePhoto() {
+  const [failed, setFailed] = useState(false);
+
+  return (
+    <div className="relative mx-auto w-full max-w-sm">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -inset-3 rounded-[2rem] bg-accent/70"
+      />
+      <div className="surface-card relative overflow-hidden rounded-[1.75rem] p-2">
+        {failed ? (
+          <div className="flex aspect-[4/5] flex-col items-center justify-center gap-3 rounded-[1.5rem] bg-surface text-center">
+            <span className="flex size-20 items-center justify-center rounded-full bg-navy text-2xl font-semibold text-navy-foreground">
+              SW
+            </span>
+            <p className="max-w-[15rem] text-xs leading-relaxed text-muted-foreground">
+              Add your photo as <span className="font-medium text-navy">public/sendi-photo.jpg</span>{" "}
+              to show it here.
+            </p>
+          </div>
+        ) : (
+          <img
+            src={PHOTO_URL}
+            alt="Portrait of Sendi Wildanto, data analytics and business intelligence specialist"
+            width={800}
+            height={1000}
+            onError={() => setFailed(true)}
+            className="aspect-[4/5] w-full rounded-[1.5rem] object-cover object-center"
+          />
+        )}
+      </div>
+    </div>
+  );
+}
 
 export function Hero() {
   return (
@@ -16,8 +51,8 @@ export function Hero() {
         aria-hidden
         className="pointer-events-none absolute inset-x-0 top-0 h-[520px] bg-gradient-to-b from-accent/60 to-transparent"
       />
-      <div className="section-shell relative grid items-center gap-12 lg:grid-cols-12 lg:gap-10">
-        <div className="lg:col-span-6">
+      <div className="section-shell relative grid items-center gap-12 lg:grid-cols-12 lg:gap-12">
+        <div className="lg:col-span-7">
           <p className="text-[11px] font-semibold tracking-[0.18em] text-primary uppercase">
             Data Analytics • Business Intelligence • System Analysis
           </p>
@@ -73,26 +108,8 @@ export function Hero() {
           </dl>
         </div>
 
-        <div className="lg:col-span-6">
-          <div className="surface-card overflow-hidden p-2 sm:p-3">
-            <img
-              src={heroImage}
-              alt="Business intelligence dashboard with KPI tiles, trend lines and distribution charts"
-              width={1200}
-              height={1200}
-              className="w-full rounded-lg"
-            />
-          </div>
-          <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3">
-            {["Power BI & Tableau", "Python & SQL", "Streamlit Apps"].map((item) => (
-              <div
-                key={item}
-                className="surface-card px-4 py-3 text-xs font-medium text-muted-foreground"
-              >
-                {item}
-              </div>
-            ))}
-          </div>
+        <div className="lg:col-span-5">
+          <ProfilePhoto />
         </div>
       </div>
     </section>

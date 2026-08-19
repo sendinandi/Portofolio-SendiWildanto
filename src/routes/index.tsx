@@ -6,6 +6,8 @@ import { Experience } from "@/components/portfolio/Experience";
 import { Projects } from "@/components/portfolio/Projects";
 import { Skills } from "@/components/portfolio/Skills";
 import { Certifications } from "@/components/portfolio/Certifications";
+import { Education } from "@/components/portfolio/Education";
+import { Leadership } from "@/components/portfolio/Leadership";
 import { Contact } from "@/components/portfolio/Contact";
 
 const title = "Sendi Wildanto — Data Analytics & BI Portfolio";
@@ -37,6 +39,8 @@ function Index() {
         <Projects />
         <Skills />
         <Certifications />
+        <Education />
+        <Leadership />
         <Contact />
       </main>
     </div>
