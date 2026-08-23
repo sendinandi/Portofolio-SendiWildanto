@@ -31,7 +31,7 @@ export function About() {
           <Reveal className="lg:col-span-7">
             <div className="space-y-4 text-base leading-relaxed text-muted-foreground">
               <p>
-                I studied Information Systems at Universitas Pembangunan Nasional &ldquo;Veteran&rdquo;
+                I studied Information Systems at Universitas Pembangunan Nasional &ldquo;Veteran
                 Jakarta, where my focus settled on data analytics, business intelligence, and system
                 analysis &mdash; the space where data, technology, and business decisions meet.
               </p>

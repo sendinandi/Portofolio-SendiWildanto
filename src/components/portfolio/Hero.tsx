@@ -2,6 +2,8 @@ import { useState } from "react";
 import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CV_URL, EMAIL, GITHUB_URL, LINKEDIN_URL, PHOTO_URL } from "./data";
+import photoSendi from "@/assets/FotoSendi.jpg";
+import CVSendi from "@/assets/CV_Sendi Wildanto.pdf";
 
 const stats = [
   { value: "3.86", label: "GPA / 4.00" },
@@ -25,13 +27,12 @@ function ProfilePhoto() {
               SW
             </span>
             <p className="max-w-[15rem] text-xs leading-relaxed text-muted-foreground">
-              Add your photo as <span className="font-medium text-navy">public/sendi-photo.jpg</span>{" "}
-              to show it here.
+              <span className="font-medium text-navy">src/assets/sendi-photo.jpg</span>{" "}
             </p>
           </div>
         ) : (
           <img
-            src={PHOTO_URL}
+            src={photoSendi}
             alt="Portrait of Sendi Wildanto, data analytics and business intelligence specialist"
             width={800}
             height={1000}
@@ -72,7 +73,7 @@ export function Hero() {
               </a>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <a href={CV_URL} download>
+              <a href={CVSendi} download>
                 <Download className="size-4" />
                 Download CV
               </a>

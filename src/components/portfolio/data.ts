@@ -1,15 +1,20 @@
-import sendiPhoto from "@/assets/sendi-photo.jpg.asset.json";
-import sipda from "@/assets/project-sipda.jpg";
-import monitoring from "@/assets/project-monitoring.jpg";
-import employment from "@/assets/project-employment.jpg";
-import eda from "@/assets/project-eda.jpg";
-import sentiment from "@/assets/project-sentiment.jpg";
-import recyclebud from "@/assets/project-recyclebud.jpg";
+import sendiPhoto from "@/assets/fotoSendi.jpg";
+import cvFile from "@/assets/CV_Sendi Wildanto.pdf";
+import sipda from "@/assets/Home_AISIPDA.png";
+import monitoring from "@/assets/Kegiatan.png";
+import employment from "@/assets/Tableau.png";
+import eda from "@/assets/Malnutrisi.png";
+import coffee from "@/assets/Export_Coffee.png";
+import sentiment from "@/assets/Sentimen.png";
+import recyclebud from "@/assets/Recyclebud_home.png";
+import biImage from "@/assets/experience-bi.jpeg";
+import diskominfoImage from "@/assets/experience-diskominfo.jpeg";
+import ksmCyberImage from "@/assets/org-ksm-cyber.jpeg";
 
-export const CV_URL = "/Sendi-Wildanto-CV.pdf";
-export const PHOTO_URL = sendiPhoto.url;
-export const LINKEDIN_URL = "https://www.linkedin.com/in/sendiwildanto";
-export const GITHUB_URL = "https://github.com/sendiwildanto";
+export const CV_URL = cvFile;
+export const PHOTO_URL = sendiPhoto;
+export const LINKEDIN_URL = "https://www.linkedin.com/in/sendi-wildanto-192a38282/";
+export const GITHUB_URL = "https://github.com/sendinandi";
 export const EMAIL = "sendiwildanto@gmail.com";
 
 export const navItems = [
@@ -38,6 +43,7 @@ export const organizations = [
     period: "Feb 2024 \u2013 Jan 2025",
     description:
       "Coordinated academic programs and learning activities, managed academic division initiatives, and supported cybersecurity learning activities within the organization.",
+    image: ksmCyberImage,
   },
 ];
 
@@ -50,6 +56,7 @@ export const projects = [
     tech: ["Python", "Streamlit", "MySQL", "Scikit-learn", "Machine Learning"],
     image: sipda,
     featured: true,
+    githuburl: "https://github.com/sendinandi/AI_SIPDA",
   },
   {
     title: "Government Activity Realization Monitoring System",
@@ -59,6 +66,7 @@ export const projects = [
     tech: ["System Analysis", "UML", "MySQL", "Dashboard", "Web Development"],
     image: monitoring,
     featured: true,
+    githuburl: "https://github.com/sendinandi/Goverment_Activity",
   },
   {
     title: "Employment Placement Analytics Dashboard",
@@ -68,6 +76,17 @@ export const projects = [
     tech: ["Tableau", "Excel", "Data Visualization", "Analytics", "Open Data"],
     image: employment,
     featured: true,
+    url: "https://opendata.bekasikota.go.id/visualisasi/jumlah-penempatan-kerja-kota-bekasi-tahun-2022-2023",
+  },
+  {
+    title: "Global Coffee Export Analytics Dashboard",
+    category: "Data Analytics / Business Intelligence",
+    description:
+      "Analyzed global coffee trade data using Python and Pandas to compare Indonesia and Brazil across export value, volume, pricing, and annual growth through an interactive Streamlit dashboard.",
+    tech: ["Python", "Pandas", "Streamlit", "Plotly", "Data Analysis"],
+    image: coffee,
+    featured: false,
+    url: "https://coffee-export-dashboard-mgqrpmzyypozztcgpesc3x.streamlit.app/",
   },
   {
     title: "Exploratory Data Analysis of Malnutrition",
@@ -77,6 +96,7 @@ export const projects = [
     tech: ["Python", "Pandas", "Matplotlib", "Data Analysis", "Visualization"],
     image: eda,
     featured: false,
+    url: "https://docs.google.com/document/d/1XIH1U0TPDNZrTtYHY1RQoKSv5M-tgqBe/edit",
   },
   {
     title: "Social Media Sentiment Analysis",
@@ -86,6 +106,7 @@ export const projects = [
     tech: ["Python", "VADER", "NLP", "Data Analysis", "Text Analytics"],
     image: sentiment,
     featured: false,
+    url: "https://colab.research.google.com/drive/1BbZJQB2Mh3ZFGd2orI8wsWVZV4bDccad?usp=sharing",
   },
   {
     title: "RecycleBud Innovation Project",
@@ -95,6 +116,7 @@ export const projects = [
     tech: ["Python", "AI", "Computer Vision", "Hugging Face", "Sustainability"],
     image: recyclebud,
     featured: false,
+    url: "https://heart-heart-guide.lovable.app/",
   },
 ];
 
@@ -109,6 +131,7 @@ export const experiences = [
       "Supported business process improvement through structured reporting and documentation.",
     ],
     tags: ["Business Intelligence", "Power BI", "Power Apps", "SharePoint", "Reporting"],
+    image: biImage,
   },
   {
     role: "Data Analyst Intern",
@@ -120,6 +143,7 @@ export const experiences = [
       "Translated stakeholder needs into requirements for data products and monitoring systems.",
     ],
     tags: ["Data Analysis", "Power BI", "Tableau", "Streamlit", "SQL / Python", "Government Data"],
+    image: diskominfoImage,
   },
 ];
 
@@ -165,11 +189,27 @@ export const certifications = [
     issuer: "Special Skill Indonesia",
     issued: "Issued July 2026",
     expires: "Expires July 2028",
+    url: "https://drive.google.com/file/d/1DvC6G3iyykJOPppBqKUsNYmiTWJL5eNZ/view?usp=sharing",
   },
   {
     name: "Structured Query Language (SQL)",
     issuer: "Dicoding Indonesia",
     issued: "Issued July 2026",
     expires: "Expires July 2029",
+    url: "https://drive.google.com/file/d/1OxDU-6EzcEyFKqpT1ypy6vs2EWQyZh1O/view?usp=sharing",
+  },
+  {
+    name: "Microsoft Power BI – Data Preparation, Transformation & Dashboard",
+    issuer: "Myskill",
+    issued: "Issued February 2025",
+    expires: "No Expiration",
+    url: "https://drive.google.com/file/d/1g2TJHSz16j2o8QxeVK9dE7TUXegJkfqp/view?usp=sharing",
+  },
+  {
+    name: "System Analyst – Certificate of Competence",
+    issuer: "BNSP – LSP Universitas Pembangunan Nasional Veteran Jakarta",
+    issued: "Issued November 2025",
+    expires: "Expires November 2028",
+    url: "https://drive.google.com/file/d/1_eAc41xJTOAaazGMmsoeW7zgv-ALTD4z/view?usp=sharing",
   },
 ];

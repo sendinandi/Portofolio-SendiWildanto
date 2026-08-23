@@ -12,7 +12,7 @@ export function Contact() {
             <p className="text-[11px] font-semibold tracking-[0.18em] text-primary uppercase">
               Contact
             </p>
-            <h2 className="mt-3 text-3xl font-semibold text-navy sm:text-4xl">Let&rsquo;s Connect</h2>
+            <h2 className="mt-3 text-3xl font-semibold text-navy sm:text-4xl">Connect</h2>
             <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
               Interested in data analytics, business intelligence, or technology projects? Feel free
               to connect with me.

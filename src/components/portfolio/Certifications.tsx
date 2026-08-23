@@ -1,12 +1,4 @@
-import { Award } from "lucide-react";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+import { ArrowUpRight, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "./SectionHeading";
 import { Reveal } from "./Reveal";
@@ -39,24 +31,14 @@ export function Certifications() {
                   </div>
                 </div>
                 <div className="mt-5">
-                  <Dialog>
-                    <DialogTrigger asChild>
-                      <Button variant="outline" size="sm">
+                  {cert.url && (
+                    <Button asChild variant="outline" size="sm">
+                      <a href={cert.url} target="_blank" rel="noreferrer">
                         View Certificate
-                      </Button>
-                    </DialogTrigger>
-                    <DialogContent className="sm:max-w-lg">
-                      <DialogHeader>
-                        <DialogTitle>{cert.name}</DialogTitle>
-                        <DialogDescription>
-                          {cert.issuer} · {cert.issued}
-                        </DialogDescription>
-                      </DialogHeader>
-                      <div className="flex aspect-[4/3] items-center justify-center rounded-lg border bg-surface p-6 text-center text-sm text-muted-foreground">
-                        Certificate image can be added here.
-                      </div>
-                    </DialogContent>
-                  </Dialog>
+                        <ArrowUpRight className="size-4" />
+                      </a>
+                    </Button>
+                  )}
                 </div>
               </div>
             </Reveal>
