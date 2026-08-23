@@ -1,4 +1,4 @@
-import sendiPhoto from "@/assets/fotoSendi.jpg";
+import sendiPhoto from "@/assets/FotoSendi.jpg";
 import cvFile from "@/assets/CV_Sendi Wildanto.pdf";
 import sipda from "@/assets/Home_AISIPDA.png";
 import monitoring from "@/assets/Kegiatan.png";
