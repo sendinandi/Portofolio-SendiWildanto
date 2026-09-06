@@ -6,7 +6,7 @@ import eda from "@/assets/Malnutrisi.png";
 import coffee from "@/assets/Export_Coffee.png";
 import sentiment from "@/assets/Sentimen.png";
 import recyclebud from "@/assets/Recyclebud_home.png";
-import aiylpg from "@/assets/AIYLPG.png";
+import officeapp from "@/assets/officeapp.png";
 import biImage from "@/assets/experience-bi.jpeg";
 import diskominfoImage from "@/assets/experience-diskominfo.jpeg";
 import ksmCyberImage from "@/assets/org-ksm-cyber.jpeg";
@@ -48,12 +48,12 @@ export const organizations = [
 
 export const projects = [
   {
-    title: "AI YLPG OFFICE – Database & Document Assistant",
+    title: "OFFICE APP – Database & Document Assistant",
     category: "AI / LLM / Database / Web Application",
     description:
-      "Developed an AI-powered HR assistant that enables conversational access to employee data, work plans, realizations, and evaluation information, with document processing and contextual AI responses.",
+      "Enhanced an existing HR Office application with AI-powered capabilities for conversational data retrieval, employee evaluation, document processing, and contextual AI responses.",
     tech: ["PHP", "CodeIgniter", "MySQL", "Groq API", "LLM", "NL2SQL", "OCR"],
-    image: aiylpg,
+    image: officeapp,
     featured: true,
   },
   {
