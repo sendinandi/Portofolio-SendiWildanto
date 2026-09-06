@@ -80,7 +80,7 @@ export const projects = [
     title: "Employment Placement Analytics Dashboard",
     category: "Data Analytics / Data Visualization",
     description:
-      "Developed an interactive Tableau dashboard using Kota Bekasi Open Data to analyze employment placement and workforce distribution trends.",
+      "Developed an interactive Tableau dashboard using Kota Bekasi Open Data to analyze employment placement and workforce distribution trends. Cleaned and transformed the data, then conducted exploratory analysis to identify monthly trends, gender composition, and dominant employment placement channels, translating the findings into interactive visualizations for public information and stakeholder decision-making.",
     tech: ["Tableau", "Excel", "Data Visualization", "Analytics", "Open Data"],
     image: employment,
     featured: true,
@@ -90,7 +90,7 @@ export const projects = [
     title: "Global Coffee Export Analytics Dashboard",
     category: "Data Analytics / Business Intelligence",
     description:
-      "Conducted an exploratory analysis of global coffee trade data to compare Indonesia and Brazil across export value, volume, price per kilogram, growth, and commodity composition, then presented the findings through an interactive Streamlit dashboard.",
+      "Conducted exploratory analysis of global coffee trade data to compare Indonesia and Brazil across export value, volume, price per kilogram, growth, and commodity composition, with findings presented through an interactive Streamlit dashboard.",
     tech: ["Python", "Pandas", "Streamlit", "Plotly", "Data Analysis"],
     image: coffee,
     featured: false,
