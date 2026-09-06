@@ -1,7 +1,7 @@
 import { Download, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "./Reveal";
-import { CV_URL, EMAIL, GITHUB_URL, LINKEDIN_URL } from "./data";
+import { EMAIL, GITHUB_URL, LINKEDIN_URL } from "./data";
 
 export function Contact() {
   return (
@@ -34,12 +34,6 @@ export function Contact() {
                 <a href={`mailto:${EMAIL}`}>
                   <Mail className="size-4" />
                   Email
-                </a>
-              </Button>
-              <Button asChild variant="outline">
-                <a href={CV_URL} download>
-                  <Download className="size-4" />
-                  Download CV
                 </a>
               </Button>
             </div>

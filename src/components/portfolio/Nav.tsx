@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Download, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { CV_URL, navItems } from "./data";
+import { navItems } from "./data";
 
 export function Nav() {
   const [open, setOpen] = useState(false);
@@ -43,12 +43,6 @@ export function Nav() {
         </div>
 
         <div className="flex items-center gap-2">
-          <Button asChild size="sm" className="hidden sm:inline-flex">
-            <a href={CV_URL} download>
-              <Download className="size-4" />
-              Download CV
-            </a>
-          </Button>
           <Button
             variant="outline"
             size="icon"
@@ -74,12 +68,6 @@ export function Nav() {
                 {item.label}
               </a>
             ))}
-            <Button asChild size="sm" className="mt-2 sm:hidden">
-              <a href={CV_URL} download>
-                <Download className="size-4" />
-                Download CV
-              </a>
-            </Button>
           </div>
         </div>
       )}

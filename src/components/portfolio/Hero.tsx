@@ -1,9 +1,8 @@
 import { useState } from "react";
-import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { CV_URL, EMAIL, GITHUB_URL, LINKEDIN_URL, PHOTO_URL } from "./data";
+import { EMAIL, GITHUB_URL, LINKEDIN_URL, PHOTO_URL } from "./data";
 import photoSendi from "@/assets/FotoSendi.jpg";
-import CVSendi from "@/assets/CV_Sendi Wildanto.pdf";
 
 const stats = [
   { value: "3.86", label: "GPA / 4.00" },
@@ -70,12 +69,6 @@ export function Hero() {
               <a href="#projects">
                 View My Work
                 <ArrowRight className="size-4" />
-              </a>
-            </Button>
-            <Button asChild size="lg" variant="outline">
-              <a href={CVSendi} download>
-                <Download className="size-4" />
-                Download CV
               </a>
             </Button>
           </div>

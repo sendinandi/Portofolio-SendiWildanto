@@ -1,5 +1,4 @@
 import sendiPhoto from "@/assets/FotoSendi.jpg";
-import cvFile from "@/assets/CV_Sendi Wildanto.pdf";
 import sipda from "@/assets/Home_AISIPDA.png";
 import monitoring from "@/assets/Kegiatan.png";
 import employment from "@/assets/Tableau.png";
@@ -7,11 +6,11 @@ import eda from "@/assets/Malnutrisi.png";
 import coffee from "@/assets/Export_Coffee.png";
 import sentiment from "@/assets/Sentimen.png";
 import recyclebud from "@/assets/Recyclebud_home.png";
+import aiylpg from "@/assets/AIYLPG.png";
 import biImage from "@/assets/experience-bi.jpeg";
 import diskominfoImage from "@/assets/experience-diskominfo.jpeg";
 import ksmCyberImage from "@/assets/org-ksm-cyber.jpeg";
 
-export const CV_URL = cvFile;
 export const PHOTO_URL = sendiPhoto;
 export const LINKEDIN_URL = "https://www.linkedin.com/in/sendi-wildanto-192a38282/";
 export const GITHUB_URL = "https://github.com/sendinandi";
@@ -48,6 +47,15 @@ export const organizations = [
 ];
 
 export const projects = [
+  {
+    title: "AI YLPG OFFICE – Database & Document Assistant",
+    category: "AI / LLM / Database / Web Application",
+    description:
+      "Developed an AI-powered HR assistant that enables conversational access to employee data, work plans, realizations, and evaluation information, with document processing and contextual AI responses.",
+    tech: ["PHP", "CodeIgniter", "MySQL", "Groq API", "LLM", "NL2SQL", "OCR"],
+    image: aiylpg,
+    featured: true,
+  },
   {
     title: "SIPDA Analytics Platform",
     category: "Data Analytics / Machine Learning / Web Application",
