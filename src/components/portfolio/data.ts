@@ -90,11 +90,11 @@ export const projects = [
     title: "Global Coffee Export Analytics Dashboard",
     category: "Data Analytics / Business Intelligence",
     description:
-      "Analyzed global coffee trade data using Python and Pandas to compare Indonesia and Brazil across export value, volume, pricing, and annual growth through an interactive Streamlit dashboard.",
+      "Conducted an exploratory analysis of global coffee trade data to compare Indonesia and Brazil across export value, volume, price per kilogram, growth, and commodity composition, then presented the findings through an interactive Streamlit dashboard.",
     tech: ["Python", "Pandas", "Streamlit", "Plotly", "Data Analysis"],
     image: coffee,
     featured: false,
-    url: "https://coffee-export-dashboard-mgqrpmzyypozztcgpesc3x.streamlit.app/",
+    url: "https://drive.google.com/drive/folders/10Xu3Eh3TQOchm1ank_XmC0wsQzcK1yJH?usp=sharing",
   },
   {
     title: "Exploratory Data Analysis of Malnutrition",
