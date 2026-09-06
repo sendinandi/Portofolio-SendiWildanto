@@ -200,11 +200,11 @@ export const certifications = [
     url: "https://drive.google.com/file/d/1DvC6G3iyykJOPppBqKUsNYmiTWJL5eNZ/view?usp=sharing",
   },
   {
-    name: "Structured Query Language (SQL)",
+    name: "Intermediet Structured Query Language (SQL)",
     issuer: "Dicoding Indonesia",
     issued: "Issued July 2026",
     expires: "Expires July 2029",
-    url: "https://drive.google.com/file/d/1OxDU-6EzcEyFKqpT1ypy6vs2EWQyZh1O/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1DrwoEgFUgza6tCCM5wdaw7VlXBvtJ2fA/view?usp=sharing",
   },
   {
     name: "Microsoft Power BI – Data Preparation, Transformation & Dashboard",
