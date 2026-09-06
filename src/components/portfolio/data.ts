@@ -200,8 +200,8 @@ export const certifications = [
     url: "https://drive.google.com/file/d/1DvC6G3iyykJOPppBqKUsNYmiTWJL5eNZ/view?usp=sharing",
   },
   {
-    name: "Intermediet Structured Query Language (SQL)",
-    issuer: "Dicoding Indonesia",
+    name: "Intermediate - Structured Query Language (SQL)",
+    issuer: "DataCamp",
     issued: "Issued July 2026",
     expires: "Expires July 2029",
     url: "https://drive.google.com/file/d/1DrwoEgFUgza6tCCM5wdaw7VlXBvtJ2fA/view?usp=sharing",
