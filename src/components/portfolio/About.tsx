@@ -31,15 +31,17 @@ export function About() {
           <Reveal className="lg:col-span-7">
             <div className="space-y-4 text-base leading-relaxed text-muted-foreground">
               <p>
-                I studied Information Systems at Universitas Pembangunan Nasional &ldquo;Veteran
-                Jakarta, where my focus settled on data analytics, business intelligence, and system
-                analysis &mdash; the space where data, technology, and business decisions meet.
+                I am an Information Systems graduate from Universitas Pembangunan Nasional
+                &ldquo;Veteran&rdquo; Jakarta, with a focus on data analytics, business
+                intelligence, and system analysis &mdash; where data, technology, and decisions come
+                together.
               </p>
               <p>
-                Through internships and real-world projects, I have transformed raw and often messy
-                data into dashboards, insights, and monitoring systems that people actually use. I
-                enjoy the full path: understanding business requirements, modeling the process,
-                designing the data, and shipping the technical implementation.
+                Through internships and real-world projects, I have worked with raw and build build
+                build dashboards, generate insights, and develop monitoring systems that support
+                real-world needs. I enjoy the full process: understanding business requirements,
+                requirements, requirements, preparing and analyzing data, designing solutions, and
+                turning ideas into practical technical implementations.
               </p>
             </div>
           </Reveal>

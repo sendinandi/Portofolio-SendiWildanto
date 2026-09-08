@@ -31,7 +31,7 @@ export const navItems = [
 export const education = {
   school: "Universitas Pembangunan Nasional \u201cVeteran\u201d Jakarta",
   degree: "Bachelor of Information Systems",
-  period: "Aug 2022 \u2013 Aug 2026",
+  period: "Aug 2022 \u2013 Sep 2026",
   gpa: "GPA 3.86 / 4.00",
 };
 
